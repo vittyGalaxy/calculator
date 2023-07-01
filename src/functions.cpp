@@ -1,41 +1,43 @@
 #include <iostream>
 using namespace std;
 #include <cmath>
+#include "../include/functions.h"
 
-float sum(float a, float b){
+float sum(float a, float b)
+{
     float c = a + b;
     return c;
-
 }
 
-float subtraction(float a, float b){
+float difference(float a, float b)
+{
     float c = a - b;
     return c;
-
 }
 
-float division(float a, float b){
+float division(float a, float b)
+{
     float c = a / b;
     return c;
-
 }
 
-float multiplication(float a, float b){
+float multiplication(float a, float b)
+{
     float c = a * b;
     return c;
-
 }
 
-float sqrt(float a){
+float compute_square_root(float a)
+{
     float c = sqrt(a);
     return c;
-
 }
 
-float power(float a, float b){
-    for(float b; b >= 0; b--){
-        a = a * a;
-    }
-    return a;
-
+// tipo, nome, input
+float power(float a, float b)
+{
+    pow(a, b);
+    return (float)a;
 }
+
+// FIXME: METTI I NOMI PER BENE!!!
