@@ -36,7 +36,7 @@ float compute_square_root(float a)
 // tipo, nome, input
 float power(float a, float b)
 {
-    pow(a, b);
+    pow(a, b); //FIXME
     return (float)a;
 }
 
