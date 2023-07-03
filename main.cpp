@@ -7,20 +7,19 @@ int main()
 {
     float a;
     float b;
-    float c;
     int n;
     cout << "Power on" << endl;
 
     cout << "Inserisci: 1 per la somma, 2 sottrazione, 3 per la divisione, 4 per la moltiplicazione, 5 per la radice quadrata, 6 per la potenza, premi altri numeri se vuoi che finisca il codice" << endl;
     cin >> n;
-    while (n == 1 || 2 || 3 || 4 || 5 || 6) //FIXME
+    while (n == 1 || n == 2 || n == 3 || n == 4 || n == 5 || n == 6)
     {
         if (n == 1)
         {
             cout << "Inserisci a" << endl;
             cin >> a;
             cout << "Inserisci b" << endl;
-            cin >> b;
+            cin >> b;    
             cout << "Il risultato è " << sum(a, b) << endl;
         }
 
@@ -66,6 +65,8 @@ int main()
             cin >> b;
             cout << "Il risultato è " << power(a, b) << endl;
         }
+        cout << "Inserisci: 1 per la somma, 2 sottrazione, 3 per la divisione, 4 per la moltiplicazione, 5 per la radice quadrata, 6 per la potenza, premi altri numeri se vuoi che finisca il codice" << endl;
+        cin >> n;
     }
     cout << "Power off" << endl;
 
