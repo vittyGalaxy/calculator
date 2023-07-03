@@ -12,7 +12,7 @@ int main()
 
     cout << "Inserisci: 1 per la somma, 2 sottrazione, 3 per la divisione, 4 per la moltiplicazione, 5 per la radice quadrata, 6 per la potenza, premi altri numeri se vuoi che finisca il codice" << endl;
     cin >> n;
-    while (n == 1 || n == 2 || n == 3 || n == 4 || n == 5 || n == 6)
+    while (n<=6 || n>=1)
     {
         if (n == 1)
         {
