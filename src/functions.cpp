@@ -36,8 +36,8 @@ float compute_square_root(float a)
 // tipo, nome, input
 float power(float a, float b)
 {
-    pow(a, b); //FIXME
-    return (float)a;
+    float c = pow(a, b); //FIXME
+    return (float)c;
 }
 
 // FIXME: METTI I NOMI PER BENE!!!
